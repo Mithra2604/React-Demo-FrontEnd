@@ -1,0 +1,55 @@
+.card {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 15px;
+    overflow: hidden;
+    gap: 10px;
+
+    img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .details {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            h3 {
+                width: 50%;
+                margin: 0;
+                font-size: 1.5em;
+            }
+
+            h2 {
+                color: #525252;
+            }
+        }
+        .dur
+        {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        button {
+            border: none;
+            font-size: 1.3em;
+            color: #ffffff;
+            background-color: #3e8cf1;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
